@@ -44,8 +44,8 @@
     "stream-browserify": "^3.0.0"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
+    "start1": "react-scripts start",
+    "start": "react-scripts build",
     "eject": "react-scripts eject",
     "deploy": "npx gh-pages -d build"
   },
@@ -53,23 +53,13 @@
     "extends": "react-app"
   },
   "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
+    "production": [">0.2%", "not dead", "not op_mini all"],
     "development": [
       "last 1 chrome version",
       "last 1 firefox version",
       "last 1 safari version"
     ]
   },
-  "keywords": [
-    "etc",
-    "swap",
-    "amis",
-    "saturn",
-    "web3"
-  ],
+  "keywords": ["etc", "swap", "amis", "saturn", "web3"],
   "description": "DEX widget for AMIS-ETC pair build over Saturn Network + orderbook"
 }
